@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+
+.flex-contemedor {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.contenedor {
+    display: flex;
+    padding: 0 20%;
+    margin-top: 0px;
+}
+
+aside {
+    float: left;
+    width: 30%;
+    background-color: blueviolet;
+    padding: 5%;
+    color: white;
+}
+
+main {
+    width: 70%;
+    float: left;
+
+    padding: 5%;
+}
+
+.avatar img {
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    box-shadow: 0 0 20px white;
+    margin-bottom: 35px;
+}
+
+.margin-title {
+    margin: 10px 0;
+}
+
+.contact span {
+    margin-right: 1px;
+}
+
+.contact div {
+    margin-bottom: 20px;
+
+}
+
+.social a {
+    width: 0%;
+    margin: 0%;
+}
+
+.social img {
+    width: 25px;
+}
+
+h1 {
+    font-size: 50px;
+    color: blueviolet;
+}
+
+hr {
+    width: 10%;
+    background-color: slategray;
+    border-style: none;
+    height: 4px;
+    margin: 2% 0;
+}
+
+h2,
+section h3 {
+    color: black;
+}
+
+/* Sirve copiar "date"**/
+.experiencias {
+    color: gray;
+    font-weight: lighter;
+    margin-bottom: 2%;
+}
+
+ul {
+    margin-left: 0%;
+}
+
+.esconder {
+    display: none;
+
+}
+
+.show {
+    display: block;
+}
